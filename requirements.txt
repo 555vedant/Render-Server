@@ -1,17 +1,5 @@
-# Core Web Framework
-Flask==3.0.3
-Werkzeug==3.0.4
-
-# Real-time WebSocket support
-Flask-SocketIO==5.3.6
-eventlet==0.36.1     # async engine for Flask-SocketIO (recommended)
-
-# System monitoring
-psutil==6.0.0
-
-# Utilities
-python-dotenv==1.0.1   # for environment variable management (optional but useful)
-
-# Logging & debugging helpers
-itsdangerous==2.2.0
-click==8.1.7
+Flask
+flask-socketio
+Werkzeug
+psutil
+gunicorn
